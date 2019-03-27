@@ -1,0 +1,80 @@
+<html>
+<head>
+	<meta charset='utf-8'> 
+
+	<link 
+		rel="stylesheet" 
+		type="text/css" 
+		href="decorate.css">
+	<link 
+		rel="stylesheet" 
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+		crossorigin="anonymous">
+	<script 
+		src="https://code.jquery.com/jquery-3.3.1.min.js" 
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" 
+		crossorigin="anonymous">
+	</script>
+	<script 
+		language="javascript" 
+		type="text/javascript" 
+		src="dynamic.js">
+	</script>
+
+	<title>Гороскоп на сегодня</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+		<h1 class="clickme">Что день</h1> &nbsp; <h1 class="clickme"> 
+			<script> 
+				var d = new Date();
+				var month=new Array("января","февраля","марта","апреля","мая","июня","июля","августа","сентября","октября","ноября","декабря");
+				document.write(d.getDate() + " " + month[d.getMonth()] + " " + d.getFullYear());</script> </h1> &nbsp;
+				<h1 class="clickme"> нам готовит?</h1>
+		</div>
+		<div class="row">
+			<div class="col-4">
+				<p id="p-0">
+				
+				<p/>
+			</div>
+			<div class="col-4">
+				<p id="p-1">
+				
+				<p/>
+			</div>
+			<div class="col-4">
+				<p id="p-2">
+				
+				<p/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-4">
+				<p id="p-3">
+				
+				<p/>
+			</div>
+			<div class="col-4">
+				<p id="p-4">
+				
+				<p/>
+			</div>
+			<div class="col-4">
+				<p id="p-5">
+				
+				<p/>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
