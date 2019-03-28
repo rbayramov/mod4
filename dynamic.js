@@ -1,6 +1,6 @@
 $(function(){
     $(".clickme").click(function() {
-    	$.getJSON("http://sf-pyw.mosyag.in/m04/api/forecasts", function(data) {
+    	$.getJSON("https://sf-pyw.mosyag.in/m04/api/forecasts", function(data) {
 		message = data["prophecies"]
 		set_divs(message);
 		});   
